@@ -25,15 +25,16 @@ git branch -M main
 git push -u origin main
 
 
-# To create and activate this environment, 
-# use                                                                                                                                                      
-#     $ conda create -p venv python==3.12
-#
-#     $ conda activate C:\workspaces\python-workspaces\test\venv                                                                                                                         
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
+To create and activate this environment, 
+use                                                                                                                                                      
+
+$ conda create -p venv python==3.12
+
+$ conda activate C:\workspaces\python-workspaces\test\venv                                                                                                                         
+
+To deactivate an active environment, use
+
+$ conda deactivate
 
 Command: conda install -n venv ipykernel --update-deps --force-reinstall
 
@@ -43,6 +44,7 @@ pip install -U ipykernel
 If you want to not use Ananconda/Conda then use python in build virtual environment
 
 python3 -m venv venv
+
 source ./venv/bin/activate
 
 
