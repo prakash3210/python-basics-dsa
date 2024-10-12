@@ -40,3 +40,9 @@ Command: conda install -n venv ipykernel --update-deps --force-reinstall
 pip install -U ipykernel
 
 
+If you want to not use Ananconda/Conda then use python in build virtual environment
+
+python3 -m venv venv
+source ./venv/bin/activate
+
+
